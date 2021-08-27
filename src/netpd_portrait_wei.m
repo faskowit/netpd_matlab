@@ -1,4 +1,4 @@
-function [B,edge_bins] = netpd_wei(mat,edge_bins,wei_trans)
+function [B,edge_bins] = netpd_portrait_wei(mat,edge_bins,wei_trans)
 
 if nargin < 2
    edge_bins = [] ; 

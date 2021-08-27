@@ -12,8 +12,8 @@ D2 = distance_wei_floyd(M2,wei_trans) ;
 ebins = netpd_edgevalbins(D1,D2) ;
 
 % two portraits, with common bins
-B1 = netpd_wei(D1,ebins,'alreadydistance') ;
-B2 = netpd_wei(D2,ebins,'alreadydistance') ;
+B1 = netpd_portrait_wei(D1,ebins,'alreadydistance') ;
+B2 = netpd_portrait_wei(D2,ebins,'alreadydistance') ;
 
 % the divergence
 div = netpd_divergence(B1,B2) ;

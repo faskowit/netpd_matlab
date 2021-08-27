@@ -1,4 +1,4 @@
-function [B] = netpd_bin(mat)
+function [B] = netpd_portrait_bin(mat)
 
 n = size(mat,1) ;
 
